@@ -84,30 +84,3 @@ body {
 }
 
 /* ... (same full CSS from earlier) ... */
-/* Devices table */
-.devices-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-bottom: 2rem;
-  font-size: 0.9rem;
-}
-
-.devices-table th,
-.devices-table td {
-  border: 1px solid #444;
-  padding: 0.5rem 0.8rem;
-  text-align: left;
-}
-
-.devices-table th {
-  background-color: #330000;
-  color: #fff;
-}
-
-.devices-table tr:nth-child(even) {
-  background-color: #1a1a1a;
-}
-
-.devices-table tr:hover {
-  background-color: #330000;
-}
